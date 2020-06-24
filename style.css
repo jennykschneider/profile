@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@300&display=swap');
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: rgb(200,210,215);
+  background-blend-mode: 20px;
+  color: rgba(0,0,0,0.7);
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: #c05746;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  color: #c57b57;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #bfb5af;
+}
+
+.card-white {
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 0 2px #6C534E;
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.header {
+  background-color: white;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 2px #6C534E;
+  width: 800px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+
+.img-circle {
+  border-radius: 3%;
+}
+
+.btn-blue {
+  background-color: #ADC698;
+  padding: 8px 20px;
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  /*stay inline but behave like a block, respect padding and margin on all sides*/
+  margin: 30px;
+  transition: 0.7s;
+}
+
+.btn-blue:hover {
+ opacity: 0.5;
+ color: white;
+}
+
+.btn-green {
+  background-color: #ADC698;
+  padding: 3px 15px;
+  color: white;
+  border-radius: 15px;
+  display: inline-block;
+  /*stay inline but behave like a block, respect padding and margin on all sides*/
+  margin: 20px;
+  transition: 0.7s;
+}
+
+.list-inline {
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.fab {
+  font-size: 40px;
+}
+
+.list-odered {
+  margin: 50px;
+  padding: 8px 20px;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
