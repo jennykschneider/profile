@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Raleway:wght@300&display=swap');
 body {
   font-family: 'Open Sans Condensed', sans-serif;
-  background-color: rgb(200,210,215);
+  background-color: rgb(240,240,250);
   background-blend-mode: 20px;
+  background-size:110%;
+  background-image:url(images/Second_picture.jpg);">
   color: rgba(0,0,0,0.7);
   letter-spacing: 2px;
   font-size: 20px;
@@ -11,7 +13,7 @@ body {
 h1 {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 2px;
-  color: #c05746;
+  color: #6C534E;
 }
 
 h2 {
@@ -48,7 +50,7 @@ a {
 
 
 .img-circle {
-  border-radius: 3%;
+  border-radius: 2%;
 }
 
 .btn-blue {
@@ -97,6 +99,34 @@ a {
   display: inline-block;
 }
 
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  #map {
+    display: none;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
 
 
 
